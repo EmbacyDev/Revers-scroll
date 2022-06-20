@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.panelCon {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99990;
+}
+
+.panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+#pane-1 {
+    background-color: pink;
+    height: 900px;
+}
+
+#pane-2 {
+    background-color: #e8e8e8;
+    height: 600px;
+
+}
+
+#pane-3 {
+    background-color: red;
+    height: 700px;
+}
+
+#pane-4 {
+    background-color: pink;
+    height: 200px;
+}
+
+#pane-5 {
+    background-color: green;
+    height: 100vh;
+}
+
+#pane-6 {
+    background-color: gold;
+    height: 500px;
+}
+
+#pane-7 {
+    background-color: fuchsia;
+    height: 800px;
+}
+
+#pane-8 {
+    background-color: wheat;
+    height: 650px;
+}
+
+#pane-9 {
+    background-color: lightcoral;
+    height: 950px;
+}
