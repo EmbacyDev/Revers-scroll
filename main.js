@@ -1,13 +1,17 @@
 const winHeight = window.innerHeight;
 const mainBlock = document.querySelector(".panel-con");
 
-document.addEventListener("DOMContentLoaded", () => {
+function sizeMainblock() {
   document.body.style.height = mainBlock.scrollHeight + "px";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  sizeMainblock();
   console.log(mainBlock.scrollHeight + "px");
 });
 
 window.addEventListener("resize", function (event) {
-  document.body.style.height = mainBlock.scrollHeight + "px";
+  sizeMainblock();
   console.log(window.innerHeight + "px");
 });
 
